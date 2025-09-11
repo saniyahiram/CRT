@@ -1,0 +1,21 @@
+lass Solution{
+    public int minAddToMakeValid(String s){
+    Stack<Character> st=new Stack<>();
+    int count=0;
+    for(char sa:s.toCharArray()){
+        if(sa =='('){
+            st.push(sa);
+        }else if(sa==')' && st.peek()==')'){
+            st.pop();
+        }else{
+            
+        }
+            
+        }
+        return st.size();
+    }
+}
+
+
+        
+    
